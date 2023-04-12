@@ -328,7 +328,7 @@ class AlphaBeta:
         value = -infinity
         
         # Avoid timeout error
-        if (time.time() - self.start) > 4.5s:
+        if (time.time() - self.start) > 4.5:
             return infinity;           
         
         successors = self.getSuccessors(node)
